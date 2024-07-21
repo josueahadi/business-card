@@ -2,16 +2,12 @@ import React from "react";
 
 export default function Interests() {
   return (
-    <div className="flex items-center justify-between bg-[#21222A] px-5 py-8">
-      <div className="flex items-center gap-1">
-        <img className="w-7" src="src/assets/react-icon-small.png" alt="logo" />
-        <h3 className="font-bold text-center text-[#61DAFB] text-xl">
-          ReactFacts
-        </h3>
-      </div>
-      <h4 className="text-[#DEEBF8] text-base font-semibold">
-        React Course - Project 1
-      </h4>
+    <div className="pt-4 text-[#F5F5F5] px-9">
+      <h3 className="font-bold text-base">Interests</h3>
+      <p className="text-xs">
+        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+      </p>
     </div>
   );
 }
