@@ -19,7 +19,7 @@ export default function Info() {
           habibjosue.tech
         </a>
       </div>
-      <div className="flex justify-center gap-4 py-6">
+      <div className="flex justify-center gap-6 py-6">
         <a
           className="text-[#374151] font-medium text-sm bg-white w-28 py-2 space-x-2 rounded-md text-center"
           href=""

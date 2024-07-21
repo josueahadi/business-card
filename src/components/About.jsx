@@ -2,16 +2,13 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="flex items-center justify-between bg-[#21222A] px-5 py-8">
-      <div className="flex items-center gap-1">
-        <img className="w-7" src="src/assets/react-icon-small.png" alt="logo" />
-        <h3 className="font-bold text-center text-[#61DAFB] text-xl">
-          ReactFacts
-        </h3>
-      </div>
-      <h4 className="text-[#DEEBF8] text-base font-semibold">
-        React Course - Project 1
-      </h4>
+    <div className="pt-4 text-[#F5F5F5] px-9">
+      <h3 className="font-bold text-base">About</h3>
+      <p className="text-xs">
+        I am a frontend developer with a particular interest in making things
+        simple and automating daily tasks. I try to keep up with security and
+        best practices, and am always looking for new things to learn.
+      </p>
     </div>
   );
 }
