@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="pt-4 text-[#F5F5F5] px-9">
+    <div className="pt-6 text-[#F5F5F5] px-9">
       <h3 className="font-bold text-base">About</h3>
       <p className="text-xs">
         I am a frontend developer with a particular interest in making things
