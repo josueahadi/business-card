@@ -3,11 +3,11 @@ import React from "react";
 export default function Info() {
   return (
     <div className="rounded-xl overflow-hidden">
-      <div className="w-full h-[317px]">
+      <div className="w-full h-[250px]">
         <img
-          className="w-full h-full object-cover object-center"
-          src="src/assets/profile-photo.jpeg"
-          alt="logo"
+          className="w-full h-full object-cover object-top"
+          src="./profile-photo.JPEG"
+          alt="profile"
         />
       </div>
       <div className="text-center">
